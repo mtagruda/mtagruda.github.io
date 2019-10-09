@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>MA Web Design Challenge</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <header class="header">
+            <h1><strong><a href="index.html">Latitude</strong></a></h1>
+          </header>
+      <ul>
+        <li>
+          <div class="dropdown">
+            <button class="dropbtn">Plots   <img src="arrow.png" height = 10 width = 10>  </button>
+              <div class="dropdown-content">
+                  <a href="plot1.html" >Max Temperature</a>
+                  <a href="plot2.html" >Cloudiness</a>
+                  <a href="plot3.html" >Humidity</a>
+                  <a href="plot4.html" >Wind Speed</a>
+</div>
+</div>
+        </li>
+        <li>
+          <a href="comparison.html">Comparison</a>
+          </li>
+        <li>
+          <a href="data.html">Data</a>
+          </li>
+      </ul>
+    </nav>
+    <main>
+      <br>
+      <br>
+          <div class="row">
+        <section>
+            <div class="box-1">
+                <h2>Summary: Latitude vs. X</h2>
+                <hr>
+                <br>
+                <div class="row">
+            <div class="col-md-4">
+            <a target="_blank" href="assets/images/CityLatitudevsMaxTemperature.png">
+              <img src="assets/images/CityLatitudevsMaxTemperature.png" width = "180" height = "180" position = left alt="Cloudy Map">
+            </a>
+            </div>
+            <div class="col-md-8">            
+            <p>This project was intended to analyze the weather and weather patterns across over 500 cities all over the world. we conducted this analysis by first randomly selecting 500 cities from the python library citipy and then searching for the relevant city data from the OpenWeatherMap API. Once this was complete, we finalized our dataset. 
+              <br>
+              <br>
+              We placed this dataset into a Dataframe and plotted 4 graphs using Matplotlib. Using latitude as our main variable for each city, we plotted the max temperature, the cloudiness, humidity and the wind speed. 
+                </p>
+                </div>
+            <p><indent>The purpose of this website is to provide a analysis of the project, with one page containing a table with the source data and one page each to show four visualizations created. Each visualization comes with an explanation and trend analysis and possible correlations.   
+              </indent></p>
+            </div>
+          </div>
+        </section>
+        <br>
+          <section>
+              <div class="box-2">
+                  <h2>Visualizations</h2>
+                  <hr>
+                  <div class="row">
+              <div class="col-md-6 col-sm" >
+              <a target="_blank" href="assets/images/CityLatitudevsMaxTemperature.png">
+                <img src="assets/images/CityLatitudevsMaxTemperature.png" width = "170" height = "140" position = left alt="Temperature Map">
+              </a>
+              </div>
+              <div class="col-md-6 col-sm">  
+                  <a target="_blank" href="assets/images/CityLatitudevsCloudiness.png">
+                    <img src="assets/images/CityLatitudevsCloudiness.png" width = "170" height = "140" position = right alt="Cloudiness Map">
+                  </a>
+                  </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-6 col-sm">
+                  <a target="_blank" href="assets/images/CityLatitudevsHumidity.png">
+                    <img src="assets/images/CityLatitudevsHumidity.png" width = "170" height = "140" position = left alt="Humidity Map">
+                  </a>
+                  </div>
+                  <div class="col-md-6 col-sm">
+                  <a target="_blank" href="assets/images/CityLatitudevsWindSpeed.png">
+                    <img src="assets/images/CityLatitudevsWindSpeed.png" width = "170" height = "140" position = left alt="Wind Speed Map">
+                  </a>          
+              </div>
+                  </div>
+                  </section>
+    </main>
+  </div>
+  
+</body>
+
+</html>

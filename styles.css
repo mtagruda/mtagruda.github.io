@@ -1,0 +1,141 @@
+/* Giving the body the specified background color, adding font sizes for the h1 and h2 elements we'll be using */
+body {
+  background: #dfdede; 
+}
+
+h1 {
+  font-size: 30px;
+  color: #000;
+}
+h2 {
+  font-size: 35px;
+}
+
+/* Giving our navbar some padding and a background color */
+.navbar {
+  background: rgb(252, 252, 251);
+  position: right;
+}
+
+/* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+.navbar li {
+  display: inline-block;
+  padding: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+
+}
+
+/* Getting rid of the default link styles here */
+.navbar li a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Left our h1 tag inside our header, giving it a little padding, removing its margin */
+.header h1 {
+  padding: 10px;
+  margin-left: 30;
+  color: #000;
+  background: #06ee12;
+  text-align: left;
+}
+
+.box-1 {
+  height: 500px;
+  width: 750px;
+  padding: 20px;
+  position: relative;
+  background: rgb(255, 255, 255);
+  left: 5%;
+}
+
+.box-2 {
+  height: 420px;
+  width: 400px;
+  padding: 20px;
+  background: rgb(255, 255, 255);
+  position: relative;
+  right: -20%;
+}
+.box-3 {
+  height: 750px;
+  width: 700px;
+  padding: 20px;
+  background: rgb(255, 255, 255);
+  position: relative;
+  left: 10%;
+  border: solid 2px black;
+}
+.box-4 {
+  height: 750px;
+  width: 1000px;
+  padding: 40px;
+  background: rgb(255, 255, 255);
+  position: relative;
+  left: 10%;
+}
+
+.box-5 {
+  height: 26650px;
+  width: 1040px;
+  padding: 20px;
+  position: absolute;
+  background: rgb(255, 255, 255);
+  left: 5%; 
+}
+.box-6 {
+  height: 420px;
+  width: 400px;
+  padding: 20px;
+  background: rgb(255, 255, 255);
+  position: relative;
+  right: -30%;
+}
+.dropdown{
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 3px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  display: inline-block;
+  text-align: left;
+  font-size: 16px;
+  border: gray;
+  background: rgb(252, 252, 251);
+}
+
+
+@media screen and (max-width: 700px) {
+  .box-1 {
+    height: 700px;
+    width: 650px;
+  } 
+
+  .box-2 {
+  position: bottom;
+  height: 270px;
+  width: 650px;
+  left: 5%;
+  }
+
+  .box-4 {
+    height: 1300px;
+    width: 500px;
+  }
+ 
+}

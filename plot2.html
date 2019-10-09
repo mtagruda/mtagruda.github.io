@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cloudiness</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <header class="header">
+            <h1><strong><a href="index.html">Latitude</strong></a></h1>
+          </header>
+      <ul>
+        <li>
+          <div class="dropdown">
+            <button class="dropbtn">Plots <img src="arrow.png" height = 10 width = 10>  </button>
+              <div class="dropdown-content">
+                    <a href="plot1.html" >Max Temperature</a>
+                    <a href="plot2.html" >Cloudiness</a>
+                    <a href="plot3.html" >Humidity</a>
+                    <a href="plot4.html" >Wind Speed</a>
+</div>
+</div>
+        </li>
+        <li>
+          <a href="comparison.html">Comparison</a>
+          </li>
+        <li>
+          <a href="data.html">Data</a>
+          </li>
+      </ul>
+    </nav>
+    <main>
+        <br>
+        <br>
+        <div class="row">
+  <section>
+      <div class="box-3">
+          <h2>Cloudiness</h2>
+          <hr>
+          <br>
+          <div class="row">
+      <a target="_blank" href="assets/images/CityLatitudevsCloudiness.png">
+        <img src="assets/images/CityLatitudevsCloudiness.png" width = "600" height = "450" position = left alt="Cloudy Map">
+    </a>
+    <br>
+    <br>
+        <p>We analyzed and plotted out each city on their cloudiness. In this visualization, we see that a majority of the plot points occur at 0 or 100% cloudiness, with many points being random. While the equator is generally rainy, the cloudiness would be generally be high at 0 degrees latitude. Considering the day or time of year, other factors will also need to be reviewed before any strong conclusions can be made, such as whether hurricanes are brewing in the gulf at the moment.</p>
+      </div>
+      </div>
+    </section>
+    <section>
+        <div class="box-6">
+            <h2>Visualizations</h2>
+            <hr>
+            <div class="row">
+        <div class="col-md-6">
+        <a target="_blank" href="assets/images/CityLatitudevsMaxTemperature.png">
+          <img src="assets/images/CityLatitudevsMaxTemperature.png" width = "170" height = "140" position = left alt="Temperature Map">
+        </a>
+        </div>
+        <div class="col-md-6">  
+            <a target="_blank" href="assets/images/CityLatitudevsCloudiness.png">
+              <img src="assets/images/CityLatitudevsCloudiness.png" width = "170" height = "140" position = right alt="Cloudiness Map">
+            </a>
+            </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+            <a target="_blank" href="assets/images/CityLatitudevsHumidity.png">
+              <img src="assets/images/CityLatitudevsHumidity.png" width = "170" height = "140" position = left alt="Humidity Map">
+            </a>
+            </div>
+            <div class="col-md-6">
+            <a target="_blank" href="assets/images/CityLatitudevsWindSpeed.png">
+              <img src="assets/images/CityLatitudevsWindSpeed.png" width = "170" height = "140" position = left alt="Wind Speed Map">
+            </a>          
+        </div>
+            </div>
+            </section>
+        </div>
+        </main>
+</div>
+</body>
+
+</html>
