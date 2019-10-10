@@ -12,7 +12,7 @@ h2 {
 }
 
 /* Giving our navbar some padding and a background color */
-.navbar {
+.navbar{
   background: rgb(252, 252, 251);
   position: right;
 }
@@ -38,7 +38,7 @@ h2 {
   padding: 10px;
   margin-left: 30;
   color: #000;
-  background: #06ee12;
+  background: #a406ee;
   text-align: left;
 }
 
@@ -119,7 +119,6 @@ h2 {
   background: rgb(252, 252, 251);
 }
 
-
 @media screen and (max-width: 700px) {
   .box-1 {
     height: 700px;
@@ -137,5 +136,5 @@ h2 {
     height: 1300px;
     width: 500px;
   }
- 
+
 }
